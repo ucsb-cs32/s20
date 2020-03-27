@@ -10,14 +10,14 @@ baseurl: "/s20"
 course: "CS32"
 qtr: "S20"
 quarter: "Spring 2020"
-piazza_url: TO DO #piazza.com/ucsb/winter2020/cmpsc32/home
+piazza_url: https://piazza.com/ucsb/spring2020/cs32/home
 gauchospace_course_page:
-gradescope_class_url: TO DO #https://www.gradescope.com/courses/77950
+gradescope_class_url: https://www.gradescope.com/courses/105132
 
-ta_list: "TO DO"
-ta_list_full: "TO DO"
-mentors_list: "TO DO"
-discussion_section_times: "TO DO"
+ta_list: "Aiwen, Yaoyi"
+ta_list_full: "Aiwen Xu, Yaoyi Bai"
+mentors_list: "April Sanchez, Adam Snaider, Alan Roddick, Brandon Nadell, Jennice Xu, Jim Wan"
+discussion_section_times: "3pm, 4pm, 5pm, 6pm"
 
 github_url: https://github.com/ucsb-cs32/s20
 mentor_url:
