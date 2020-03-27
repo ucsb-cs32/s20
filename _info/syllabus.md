@@ -9,7 +9,7 @@ Basic Facts
 
 * **Course Web Site**: <https://ucsb-cs32.github.io/s20/>
 * **Instructor**:  Jedrzej (Jacob) Kozerawski
-   * Email is jkozerawski@ucsb.edu, BUT please use [Piazza](piazza.com/ucsb/winter2020/cmpsc32/home) for course related communication.
+   * Email is jkozerawski@ucsb.edu, BUT please use [Piazza](https://piazza.com/ucsb/spring2020/cs32/home) for course related communication.
 * **Lecture**: TR 9:30am-10:45am CHEM 1171, ATTENDANCE REQUIRED.
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
@@ -43,15 +43,15 @@ Advanced topics in object-oriented computing. Topics include encapsulation, data
    * On most homework assignments you may collaborate with at most one other person (who must be named).
 * Attendance is required at all lectures and labs (discussion sections).
   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
-* <strong>You</strong> must turn in your homework in lecture the day that it is due.
 * We will use the [gradescope system](https://gradescope.com) this quarter. More instructions on gradescope will be given in lecture and lab assignments.
+* Homework assignments will be released on Tuesdays at 12pm and will be due next Tuesday at 11:59pm. Everything will be posted both on Gradescope and on course webpage.
+* All submissions will be done through Gradescope. When specified you will be able to collaborate and upload a group submission.
 * All regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
 
 You may NOT: 
 
-* Turn in homework on a day other than when it is due (early or late)
-* Have someone else turn in your homework for you (that will be considered academic dishonesty).
-* Drop it off with the instructor or TA to be graded later.
+* Turn in homework on late (the option is disabled).
+
 
 ## What this course is about 
 
@@ -71,12 +71,12 @@ Your course grade will be determined as follows:
 
 | Grade Item                        | Percentage of Final Grade |
 |-----------------------------------|---------------------------|
-| Midterm (Wed 02/05)               | 30 %                      |
-| Final (Tues 03/17 12pm - 2pm)     | 35 %                      |
+| Midterm (Wed 04/30)               | 30 %                      |
+| Final (TBD)                       | 35 %                      |
 | Homeworks                         | 10 %                      |
 | Labs                              | 25 %                      |
 
-In general, homeworks will be assigned periodically throughout the quarter, and are due in lecture on the due date.
+In general, homeworks will be assigned periodically throughout the quarter, and are due on Gradescope by the due date.
 
 There will be labs assigned throughout the quarter. You will work on the labs during your assigned lab section, and most likely on your own time outside of your assigned lab section. Please be sure to check the due dates for all assignments on the course page and calendar.
 
