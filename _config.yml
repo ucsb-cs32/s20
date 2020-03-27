@@ -31,7 +31,7 @@ start_week: 0
 start_date: 2020-03-29 00:00:00.00-7:00
 num_weeks: 10
 extra_exam_week: true
-sections: "TO DO"
+sections: "3pm, 4pm, 5pm, 6pm"
 
 cal_dates: >
   [
