@@ -72,7 +72,7 @@ Your course grade will be determined as follows:
 | Grade Item                        | Percentage of Final Grade |
 |-----------------------------------|---------------------------|
 | Midterm (Wed 04/30)               | 30 %                      |
-| Final (TBD)                       | 35 %                      |
+| Final (Tue 06/9 8-11AM)           | 35 %                      |
 | Homeworks                         | 10 %                      |
 | Labs                              | 25 %                      |
 
