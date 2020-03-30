@@ -85,7 +85,7 @@ offering_links:
          description: "Q&A Forum"
   - title: Github
     dropdown:
-       - title: ucsb-cs32-s20
-         url: https://github.com/ucsb-cs32-s20
+       - title: ucsb-cs32-s20-kozerawski
+         url: https://github.com/ucsb-cs32-s20-kozerawski
 
 

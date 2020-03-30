@@ -12,6 +12,7 @@ ready: true
 ## CS 32 TAs / Tutors
 * Yaoyi Bai (TA)
 * Aiwen Xu (TA)
+* Suriya Dakshina Murthy (Reader)
 * April Sanchez (Lead tutor)
 * Adam Snaider (tutor)
 * Alan Roddick (tutor)
