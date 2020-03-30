@@ -9,35 +9,42 @@ ready: true
 # Instructor
 Jedrzej Kozerawski
 
-* TBD
+* Wednesdays 10:00am - 11:00am
+* Thursdays 1:00pm - 2:00pm
 
 # TAs
 
 Yaoyi Bai 
 
-* TBD
+* Mondays 9:00am - 10:00am
+* Fridays 9:00am - 10:00am
 
 Aiwen Xu
 
-* TBD
+* Mondays 3:00pm - 4:00pm
+* Wednesdays 9:00am - 10:00am
 
 # Tutor Open Lab Hours
 
-April Sanchez
+April Sanchez (Lead)
 
-* TBD
+* Mondays 6:00pm - 7:00pm
+* Tuesdays 6:00pm - 8:00pm
 
 Adam Snaider
 
-* TBD
+* Thursdays 2:00pm - 3:00pm
+* Fridays 2:00pm - 3:00pm
 
 Alan Roddick
 
-* TBD
+* Mondays 11:00am - 12:00pm
+* Wednesdays 11:00am - 12:00pm
 
 Jim Wan
 
-* TBD
+* Tuedays 11:00am - 12:00pm
+* Thursdays 11:00am - 12:00pm
 
 Jennice Xu
 
@@ -45,5 +52,6 @@ Jennice Xu
 
 Brandon Nadell
 
-* TBD
+* Mondays 4:00pm - 5:00pm
+* Wednesdays 4:00pm - 5:00pm
 
