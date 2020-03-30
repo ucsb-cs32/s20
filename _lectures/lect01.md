@@ -55,7 +55,7 @@ c++     main.cpp   -o main
 ```
 $ g++ -o main main.cpp
 $ ls
-functions.cpp	functions.h	main		main.cpp
+main		main.cpp
 $ ./main
 Hello CS 32!
 ```
