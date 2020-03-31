@@ -44,7 +44,7 @@ Advanced topics in object-oriented computing. Topics include encapsulation, data
 * Attendance is required at all lectures and labs (discussion sections).
   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * We will use the [gradescope system](https://gradescope.com) this quarter. More instructions on gradescope will be given in lecture and lab assignments.
-* Homework assignments will be released on Tuesdays at 12pm and will be due next Tuesday at 11:59pm. Everything will be posted both on Gradescope and on course webpage.
+* Homework assignments will be released on Tuesdays at 9:30am and will be due next Tuesday at 11:59pm. Everything will be posted both on Gradescope and on course webpage.
 * All submissions will be done through Gradescope. When specified you will be able to collaborate and upload a group submission.
 * All regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
 
