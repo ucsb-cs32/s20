@@ -44,7 +44,7 @@ There are many implementations of containers.
 CXX=g++
 
 main: main.o
-        ${CXX} -o main -std=C++11 main.o
+        ${CXX} -o main -std=c++11 main.o
 
 clean:
         rm -f *.o main
@@ -69,7 +69,8 @@ Yet they’re different than arrays…
 
 ## Adding to a vector example
 ```
-// main.cp
+// main.cpp
+#include<iostream>
 #include<vector>
 
 using namespace std;
@@ -105,7 +106,7 @@ int main() {
 ```
 cout << v.at(4) << endl;
 cout << v.at(5) << endl; // EXCEPTION THROWN
-cout << v1[5] << endl; // JUNK
+cout << v[5] << endl; // JUNK
 ```
 
 Other supported operations are:
@@ -207,8 +208,10 @@ printVector(v2);
 
 ```
 #include <set>
+#include <string>
+#include <iostream>
 
-using namespaces std;
+using namespace std;
 
 int main() {
 	set<string> s;
