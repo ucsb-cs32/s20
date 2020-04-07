@@ -154,6 +154,7 @@ still works. If the copy constructor is defined, then the assignment operator `=
 ### Shallow Copy illustration
 ```
 // modify class Person.h definition with vector v
+#include <vector>
 public:
 	std::vector<int>* getVector() const;
 
