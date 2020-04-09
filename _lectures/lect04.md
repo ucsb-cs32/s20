@@ -300,7 +300,7 @@ class X {
 		int c;     
 		char d;     
 		
-		void print_sizes(){
+		void printSizes(){
 			cout << sizeof(*this) << endl;	// size of the class
 			cout << sizeof(a) << endl;
 			cout << sizeof(b) << endl;
@@ -308,7 +308,7 @@ class X {
 			cout << sizeof(d) << endl;			
 		};
 
-		void print_addresses(){
+		void printAddresses(){
 			cout << &(*this) << endl;	//address of the class
 			
 			cout << reinterpret_cast<void*>(&a) << endl;
@@ -320,8 +320,8 @@ class X {
 
 int main() {
 	X x;
-	x.print_sizes();
-	x.print_addresses();
+	x.printSizes();
+	x.printAddresses();
 }
 ```
 
