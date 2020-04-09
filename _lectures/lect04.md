@@ -279,7 +279,7 @@ Struct Z:
 ```
 class A {
     public:
-    char a;     // 1 byte
+    	char a;     // 1 byte
 };
 
 int main() {
