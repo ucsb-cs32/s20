@@ -253,7 +253,6 @@ Struct Y:
 
 ```
 struct Z {
-    public:
     char a;     // 1 byte
     int b;      // 4
     char c;     // 1
@@ -289,7 +288,7 @@ int main() {
 ```
 
 If we want to play more when checking different allocations:
-'''
+```
 #include <iostream>
 
 using namespace std;
@@ -325,7 +324,7 @@ int main() {
     x.print_sizes();
 	x.print_addresses();
 }
-'''
+```
 
 * For additional reference, here's a good article that explains this well:
  
