@@ -294,8 +294,7 @@ If we want to play more when checking different allocations:
 using namespace std;
 
 class X {
-	public:
-		
+    public:
 		int a;      
 		short b;    
 		int c;     
@@ -310,7 +309,7 @@ class X {
 		};
 
 		void print_addresses(){
-			cout << &(*this) << endl;	// size of the class
+			cout << &(*this) << endl;	//address of the class
 			
 			cout << reinterpret_cast<void*>(&a) << endl;
 			cout << reinterpret_cast<void*>(&b) << endl;
@@ -320,8 +319,8 @@ class X {
 };
 
 int main() {
-    X x;
-    x.print_sizes();
+	X x;
+	x.print_sizes();
 	x.print_addresses();
 }
 ```
