@@ -12,7 +12,7 @@ lecture_date: 2020-04-14 09:30:00.00-7:00
 ## Quadratic-time sorting algorithms
 * Sorting algorithms in O(n<sup>2</sup>) are known as quadratic time algorithms.
 * We'll cover three quadratic sorting algorithms:
-	* Bubbles sort, Insertion sort, and Selection sort
+	* Bubble sort, Insertion sort, and Selection sort
 
 ## Bubble Sort
 * Bubble sort compares adjacent items in the array and swaps them if a[i] > a[i+1].
@@ -22,6 +22,10 @@ lecture_date: 2020-04-14 09:30:00.00-7:00
 		* A good illustration of how Bubble sort works is shown [here](https://en.wikipedia.org/wiki/Bubble_sort).
 * Can be slightly optimized
 	* If a swap doesn't occur in an iteration, we know the array is already sorted and no more comparisons need to be made.
+
+## Visualization of sorting algorithms
+* A good visualization tool for different sorting algorithms can be found [here](https://visualgo.net/bn/sorting) and [here](https://www.toptal.com/developers/sorting-algorithms).
+
 
 ## Example
 ```
@@ -34,6 +38,12 @@ main: main.o sorts.o
 clean:
 	rm -f *.o main
 ```
+
+```
+//sorts.h
+void bubbleSort(int a[], size_t size);
+```
+
 ```
 //sorts.cpp
 #include <iostream>
@@ -64,10 +74,7 @@ void bubbleSort(int a[], size_t size) {
 	}
 }
 ```
-```
-//sorts.h
-void bubbleSort(int a[], size_t size);
-```
+
 ```
 //main.cpp
 #include <iostream>
@@ -104,20 +111,18 @@ int main() {
 	printArray(e,1);
 }
 ```
-
-## Visualization of sorting algorithms
-* A good visualization tool for different sorting algorithms can be found [here](https://visualgo.net/bn/sorting) and [here](https://www.toptal.com/developers/sorting-algorithms).
-
 ## Selection Sort
 * From top-down (or bottom-up), look through the array and find the largest (or smallest) element.
 * Swap a[i] with a[index_of_largest_value]
 * O(n<sup>2</sup>) complexity.
 * A good illustration of how Selection Sort works is shown [here](https://en.wikipedia.org/wiki/Selection_sort).
+
 ```
 // Add to sorts.h
 
 void selectionSort(int a[], size_t size);
 ```
+
 ```
 // Add to sorts.cpp
 void selectionSort(int a[], size_t size) {
@@ -154,6 +159,7 @@ void selectionSort(int a[], size_t size) {
 
 void insertionSort(int a[], size_t size);
 ```
+
 ```
 // Add to sorts.cpp
 
