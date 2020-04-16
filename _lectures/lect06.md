@@ -18,6 +18,12 @@ lecture_date: 2020-04-16 09:30:00.00-7:00
 
 ![Hash Table](hashTable.png)
 
+* Examples of hashing applications:
+	* As a data structure (search)
+	* Cryptography:
+		* password verification
+		* file verification 
+
 * Hashing is very efficient for searching for data in an array.
 	* Recall binary search: O(log n) search time (if elements are sorted).
 	* Linear search: O(n) search time.
