@@ -136,7 +136,7 @@ void Hash::deleteItem(int key)
 				curr_size--;
 				break;			
 			}
-			if(new_index == index or table[new_index].empty()){
+			if(new_index == index){
 				cout << "Item not found" << endl;
 				break;
 			}
@@ -161,7 +161,7 @@ void Hash::searchItem(int key)
 				cout << "Item: " << key << " found at: " << new_index <<  endl; 
 				break;			
 			}
-			if(new_index == index or table[new_index].empty()){
+			if(new_index == index){
 				cout << "Item not found" << endl;
 				break;
 			}
@@ -282,10 +282,6 @@ void Hash::deleteItem(int key)
 			break;
 						
 		}
-		if(table[new_index].empty()){
-			cout << "Item not found" << endl;
-			break;
-		}
 		i++;
 	}
 } 
@@ -302,10 +298,6 @@ void Hash::searchItem(int key)
 		if(*(table[new_index].begin()) == key){
 			cout << "Item: " << key << " found at: " << new_index <<  endl; 
 			break;		
-		}
-		if(table[new_index].empty()){
-			cout << "Item not found" << endl;
-			break;
 		}
 		i++;
 	}
