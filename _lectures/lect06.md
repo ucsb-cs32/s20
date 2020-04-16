@@ -136,7 +136,7 @@ void Hash::deleteItem(int key)
 				curr_size--;
 				break;			
 			}
-			if(new_index == index){
+			if(new_index == index or table[new_index].empty()){
 				cout << "Item not found" << endl;
 				break;
 			}
@@ -161,7 +161,7 @@ void Hash::searchItem(int key)
 				cout << "Item: " << key << " found at: " << new_index <<  endl; 
 				break;			
 			}
-			if(new_index == index){
+			if(new_index == index or table[new_index].empty()){
 				cout << "Item not found" << endl;
 				break;
 			}
@@ -239,17 +239,7 @@ int hashFunction2(int x); // hash function to map values to key
 ```
 
 ```
-//hash.cpp
-#include<iostream>
-#include "hash.h"
-
-using namespace std;
-
-Hash::Hash(int b) 
-{ 
-	this->BUCKET = b; 
-	table = new list<int>[BUCKET]; 
-} 
+// modify hash.cpp
   
 void Hash::insertItem(int key) 
 { 
@@ -281,7 +271,6 @@ void Hash::deleteItem(int key)
 { 
 	// get the hash index of key 
 	int index = hashFunction(key); 
-
 	int index2 = hashFunction2(key);
 	int i = 0;
 	while(true){
@@ -305,8 +294,6 @@ void Hash::searchItem(int key)
 { 
 
 	int index = hashFunction(key); 
-
-	bool found = false;
 	int index2 = hashFunction2(key);
 	int i = 0;
 	while(true){
@@ -324,22 +311,6 @@ void Hash::searchItem(int key)
 	}
 } 
   
-// function to display hash table 
-void Hash::displayHash() { 
-	cout << endl << "Printing:" << endl;
-	for (int i = 0; i < BUCKET; i++) { 
-		cout << i; 
-		for (auto x : table[i]) 
-			cout << " --> " << x; 
-		cout << endl; 
-	} 
-	cout << endl;
-} 
-
-int Hash::hashFunction(int x) { 
-	return (x % BUCKET); 
-} 
-
 int Hash::hashFunction2(int x) { 
 	return 5 - (x % 5); 
 } 
@@ -360,18 +331,8 @@ int Hash::hashFunction2(int x) {
 ## Example
 
 ```
-//hash.cpp
-#include<iostream>
-#include "hash.h"
+// modify hash.cpp
 
-using namespace std;
-
-Hash::Hash(int b) 
-{ 
-	this->BUCKET = b; 
-	table = new list<int>[BUCKET]; 
-} 
-  
 void Hash::insertItem(int key) 
 { 
 	int index = hashFunction(key); 
@@ -408,7 +369,6 @@ void Hash::searchItem(int key)
 
   	// if key is found in hash table: 
 	if (i != table[index].end()){
-		table[index].erase(i); 
 		cout << "Item: " << key << " found at: " << index <<  endl;
 	}
 	else{
@@ -416,21 +376,6 @@ void Hash::searchItem(int key)
 	}
 } 
   
-// function to display hash table 
-void Hash::displayHash() { 
-	cout << endl << "Printing:" << endl;
-	for (int i = 0; i < BUCKET; i++) { 
-		cout << i; 
-		for (auto x : table[i]) 
-			cout << " --> " << x; 
-		cout << endl; 
-	} 
-	cout << endl;
-} 
-
-int Hash::hashFunction(int x) { 
-	return (x % BUCKET); 
-} 
 ```
 
 
