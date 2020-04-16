@@ -30,6 +30,7 @@ lecture_date: 2020-04-16 09:30:00.00-7:00
 	* Hash Table search: O(1) average search time in unsorted order.
 		* Hash Table searching provides instant access to an element in an array since the hash function computes the index where the data is stored.
 
+
 ## Collisions
 * It's possible that two elements may be indexed to the same location.
 	* This is known as collisions
@@ -431,6 +432,9 @@ int Hash::hashFunction(int x) {
 	return (x % BUCKET); 
 } 
 ```
+
+
+* Useful visualization tool can be found in [here](https://visualgo.net/en/hashtable)
 
 ## `std::map` vs `std::unordered_map`
 
