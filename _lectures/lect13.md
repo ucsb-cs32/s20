@@ -98,7 +98,7 @@ PID    COMMAND      %CPU TIME     #TH   #WQ  #PORTS MEM    PURG   CMPRS  PGRP  P
 # Makefile
 CXX=g++
 main: main.o
-	${CXX} -o main -std=C++11 main.o
+	${CXX} -o main -std=c++11 main.o
 clean:
 	rm -f *.o main
 -----
