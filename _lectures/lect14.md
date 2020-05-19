@@ -69,13 +69,13 @@ int main() {
 
     pid_t result = fork(); // child_result == 0, parent_result == PID of child
 
-	cout << endl << "Return result of fork: " << result << endl;
+    cout << endl << "Return result of fork: " << result << endl;
 
     cout << "After fork, " << __FILE__ << " " << __LINE__ << " "  << __FUNCTION__ << " PID: " << getpid() << " PPID: " << getppid() << endl;
 
     sleep(10);
 
-	cout << endl;
+    cout << endl;
     cout << "After sleep, " << __FILE__ << " " << __LINE__ << " "  << __FUNCTION__ << " PID: " << getpid() << " PPID: " << getppid() << endl;
 
     return 0;
@@ -124,7 +124,7 @@ int main() {
     char* const HELLO_EXECUTABLE = (char*) "./hello";
     
     cout << "Before fork, " << __FILE__ << ", " << __LINE__ << " " << __FUNCTION__ << endl;
-	sleep(10);
+    sleep(10);
 
     // parent receives child PID, child_result == 0
     pid_t result = fork();
@@ -133,8 +133,8 @@ int main() {
 
     cout << "RESULT_PID = " << result << endl;
     cout << "PID: " << getpid() << " PPID: " << getppid() << endl;
-	cout << endl;
-	sleep(10);
+    cout << endl;
+    sleep(10);
 
 	
 
@@ -167,6 +167,6 @@ int main() {
         }
     }
     cout << "After waiting, " << __FILE__ ", " << __LINE__ << " " << __FUNCTION__ << endl;
-	return 0;
+    return 0;
 } // Play around with ps –l between sleep to see PPID and PID
 ```
