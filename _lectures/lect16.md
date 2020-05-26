@@ -30,7 +30,7 @@ lecture_date: 2020-05-26 09:30:00.00-7:00
 	* For example, working on "parts of a problem" concurrently can improve performance if the parts can be done independently.
 	* Many applications use concurrency for performance reasons, for example:
 		* Web servers process requests concurrently
-		* We browsers fetch / render images concurrently
+		* Web browsers fetch / render images concurrently
 	* Embarrassingly Parallel problems are usually a good fit for concurrent computing
 		* Monte-carlo simulations are embarrassingly parallel – the result is the average (expected) scenario based on independent executions.
 
@@ -264,3 +264,4 @@ int main() {
 * A situation where two (or more) threads are waiting on each other to release a resource, where each of the threads have a lock on the dependent resources.
 * Execution is halted and cannot move forward in this situation.
 
+![Deadlock](deadlock.png)
