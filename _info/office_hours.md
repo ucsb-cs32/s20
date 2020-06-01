@@ -48,7 +48,8 @@ Jim Wan
 
 Jennice Xu
 
-* TBD
+* Tuedays 1:00pm - 2:00pm
+* Fridays 5:00pm - 6:00pm
 
 Brandon Nadell
 
