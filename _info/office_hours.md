@@ -43,12 +43,12 @@ Alan Roddick
 
 Jim Wan
 
-* Tuedays 11:00am - 12:00pm
+* Tuesdays 11:00am - 12:00pm
 * Thursdays 11:00am - 12:00pm
 
 Jennice Xu
 
-* Tuedays 1:00pm - 2:00pm
+* Tuesdays 1:00pm - 2:00pm
 * Fridays 5:00pm - 6:00pm
 
 Brandon Nadell
